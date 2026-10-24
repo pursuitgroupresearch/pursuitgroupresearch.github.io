@@ -1,0 +1,66 @@
+# News items, newest first. Leave url blank if there is nothing to link to yet.
+# kind is a short label such as Group, Publication, Trial or Award.
+
+- when: Oct 2026
+  kind: Group
+  title: PURSUIT launches
+  summary: >-
+    Investigators from St. Michael's Hospital, Sunnybrook and Lakeridge Health
+    come together as one critical care research group.
+  source: ""
+  url: "#research"
+
+- when: 2026
+  kind: Publication
+  title: Priorities for corticosteroid trials in pneumonia
+  summary: >-
+    A survey of REMAP-CAP investigators sets out the open questions that future
+    corticosteroid trials in community-acquired pneumonia should answer.
+  source: Intensive Care Medicine
+  url: https://doi.org/10.1007/s00134-026-08445-y
+
+- when: 2026
+  kind: Publication
+  title: How clinicians use corticosteroids in septic shock
+  summary: >-
+    Our international survey of corticosteroid practice in septic shock is
+    accepted for publication.
+  source: CHEST Critical Care
+  url: ""
+
+- when: May 2024
+  kind: Publication
+  title: Fludrocortisone plus hydrocortisone in septic shock
+  summary: >-
+    A network meta-analysis of randomized trials suggests that adding
+    fludrocortisone to hydrocortisone may lower mortality compared with
+    hydrocortisone alone.
+  source: American Journal of Respiratory and Critical Care Medicine
+  url: https://doi.org/10.1164/rccm.202310-1785OC
+
+- when: Mar 2024
+  kind: Publication
+  title: How often central venous catheters cause complications
+  summary: >-
+    A systematic review and meta-analysis of complication rates for central
+    venous catheters in adults.
+  source: JAMA Internal Medicine
+  url: https://doi.org/10.1001/jamainternmed.2023.8232
+
+- when: Mar 2023
+  kind: Publication
+  title: Two steroids or one in septic shock
+  summary: >-
+    A target trial emulation in 88,275 patients compares fludrocortisone plus
+    hydrocortisone with hydrocortisone alone.
+  source: JAMA Internal Medicine
+  url: https://pubmed.ncbi.nlm.nih.gov/36972033/
+
+- when: Oct 2022
+  kind: Publication
+  title: First-line vasopressors and how they are given
+  summary: >-
+    An epidemiologic study of which vasopressor patients with septic shock
+    receive first, and through which route.
+  source: Annals of the American Thoracic Society
+  url: https://doi.org/10.1513/AnnalsATS.202203-222OC

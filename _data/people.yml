@@ -81,5 +81,15 @@ coleads:
       - label: Queen's University profile
         url: https://criticalcare.queensu.ca/node/558
 
-# Trainees will be added here once each person has agreed to be listed.
+# Trainees appear on the site in the order listed, once each person has agreed.
+# The Trainees section shows automatically as soon as one trainee is listed.
+# To add someone, delete the [] after "trainees:" and add a block like this
+# (photo is optional; without one, the initials show in a circle):
+#
+# trainees:
+#   - name: Jane Doe
+#     initials: JD
+#     role: Medical student, University of Toronto
+#     project: Extubation during vasopressor support
+#     photo: assets/jane-doe.jpg
 trainees: []

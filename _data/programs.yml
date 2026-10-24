@@ -1,0 +1,51 @@
+# Research programs, shown as cards in the order listed.
+
+- id: trials
+  channel: Trials
+  title: Pragmatic and platform trials
+  summary: >-
+    We help lead international adaptive platform trials, including REMAP-CAP
+    and PRACTICAL, where we lead work on corticosteroids such as fludrocortisone
+    in severe pneumonia, sepsis and acute respiratory failure.
+  examples:
+    - Fludrocortisone across platform trials
+    - The FLUDRO-1 pilot in acute hypoxemic respiratory failure
+    - Priorities for future corticosteroid trials in pneumonia
+
+- id: data
+  channel: Data
+  title: Target trial emulation in ICU databases
+  summary: >-
+    When a trial is not yet feasible, we emulate one. Most of our students lead
+    projects in large public ICU databases such as MIMIC and eICU, using causal
+    inference methods to compare treatments the way a trial would.
+  examples:
+    - Choosing, delivering and weaning vasopressors
+    - Extubation during vasopressor support
+    - Acid suppression in septic shock
+
+- id: practice
+  channel: Practice
+  title: Implementation and health systems
+  summary: >-
+    We work with clinicians and hospitals to put evidence into practice. Our
+    team led Unity Health Toronto's move to starting vasopressors through
+    peripheral IVs, and we study safer central line use, ICU sedation and the
+    capacity and costs of critical care.
+  examples:
+    - Peripheral vasopressor administration
+    - Complications of central venous catheters
+    - Sedation and analgesia during and after the ICU
+
+- id: ai
+  channel: AI
+  title: AI and clinical decision support
+  summary: >-
+    We are building INSIGHT, an AI decision-support tool for the ICU, at
+    St. Michael's Hospital. It is designed to warn teams early and to admit
+    uncertainty, starting with the moments around intubation and weaning from
+    the ventilator.
+  examples:
+    - Low blood pressure after intubation
+    - Readiness for extubation
+    - Prolonged ventilator weaning

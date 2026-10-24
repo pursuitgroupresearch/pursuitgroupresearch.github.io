@@ -1,0 +1,85 @@
+# People shown on the site. Co-leads appear in the order listed.
+# photo: a path such as assets/people/teja.jpg, or a full web address.
+# initials: shown if the photo cannot load.
+
+coleads:
+  - id: jivraj
+    name: Naheed Jivraj
+    initials: NJ
+    credentials: MBBS, MSc, FRCPC
+    role: Anesthesia and critical care
+    institution: Sunnybrook Health Sciences Centre
+    photo: "https://anesthesia.utoronto.ca/sites/default/files/styles/square_1_1_600/public/assets/faculty/image/Headshot1.jpg?itok=INaWUDBJ"
+    bio: >-
+      Naheed is an Assistant Professor in the Department of Anesthesiology and
+      Pain Medicine at the University of Toronto and a clinician-investigator at
+      Sunnybrook Health Sciences Centre, where he practises anesthesia and
+      critical care. His research focuses on sedation and analgesia during and
+      after critical illness, critical care capacity and health economics. He
+      trained in medicine at King's College London, in anesthesiology and
+      critical care medicine at the University of Toronto, and in health policy
+      at the London School of Economics.
+    links:
+      - label: University of Toronto profile
+        url: https://www.anesthesia.utoronto.ca/faculty/naheed-jivraj
+
+  - id: sklar
+    name: Michael Sklar
+    initials: MS
+    credentials: MD, FRCPC
+    role: Critical care and anesthesia
+    institution: St. Michael's Hospital
+    photo: "https://anesthesia.utoronto.ca/sites/default/files/styles/square_1_1_600/public/assets/faculty/image/Sklar%2C%20M_Photo.jpg?itok=mAwUhmj8"
+    bio: >-
+      Mike is an Assistant Professor in the Department of Anesthesiology and
+      Pain Medicine at the University of Toronto and an intensivist and
+      anesthesiologist at St. Michael's Hospital, Unity Health Toronto. He works
+      in the medical-surgical and trauma-neurosurgical ICUs and with the critical
+      care outreach team. His research focuses on respiratory failure, mechanical
+      ventilation and extracorporeal life support, and he co-leads INSIGHT, our
+      AI decision-support tool for the ICU.
+    links:
+      - label: University of Toronto profile
+        url: https://anesthesia.utoronto.ca/faculty/michael-sklar
+
+  - id: teja
+    name: Bijan Teja
+    initials: BT
+    credentials: MD, PhD, MBA, FRCPC
+    role: Critical care and cardiac anesthesia
+    institution: St. Michael's Hospital
+    photo: "https://anesthesia.utoronto.ca/sites/default/files/styles/square_1_1_600/public/assets/faculty/image/Screenshot%202025-11-19%20145042.png?itok=iso4-ayq"
+    bio: >-
+      Bijan is an Assistant Professor at the University of Toronto and a staff
+      physician in critical care medicine and cardiac anesthesia at St. Michael's
+      Hospital, Unity Health Toronto. His research aims to improve drug therapy
+      for critically ill patients, especially vasopressors and corticosteroids,
+      and he leads corticosteroid work in the REMAP-CAP and PRACTICAL platform
+      trials. He trained at Dartmouth (MD, MBA), Beth Israel Deaconess Medical
+      Center and Harvard Medical School (anesthesiology), and the University of
+      Toronto (critical care medicine and a PhD in clinical epidemiology).
+    links:
+      - label: University of Toronto profile
+        url: https://anesthesia.utoronto.ca/faculty/bijan-teja
+
+  - id: zamir
+    name: Nasim Zamir
+    initials: NZ
+    credentials: MD, FRCPC
+    role: Critical care and informatics
+    institution: Lakeridge Health
+    photo: "https://criticalcare.queensu.ca/sites/criticalcare/files/team/Nasim%20Zamir%20thumbnail_nasim_lh.jpg"
+    bio: >-
+      Nasim is an intensivist at Lakeridge Health and an Assistant Professor at
+      Queen's University, and he serves as informatics lead for Lakeridge's
+      critical care department. His work brings health information systems and
+      AI into clinical workflows, and he leads data science for several of our
+      studies. He trained in medicine at McMaster University, in internal
+      medicine at the University of Saskatchewan and in critical care medicine
+      at the University of Toronto.
+    links:
+      - label: Queen's University profile
+        url: https://criticalcare.queensu.ca/node/558
+
+# Trainees will be added here once each person has agreed to be listed.
+trainees: []

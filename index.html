@@ -162,11 +162,33 @@ layout: null
       {% endfor %}
     </ul>
 
+    {% assign trainees = site.data.people.trainees %}
+    {% if trainees and trainees.size > 0 %}
+    <div class="trainee-block">
+      <div class="trainee-head">
+        <h3 class="subhead">Trainees</h3>
+        <a class="text-link" href="#join">Join them</a>
+      </div>
+      <ul class="trainee-grid">
+        {% for t in trainees %}
+        <li class="trainee">
+          <span class="photo trainee-photo"><span class="initials" aria-hidden="true">{% if t.initials and t.initials != "" %}{{ t.initials | escape }}{% else %}{{ t.name | slice: 0 | escape }}{% endif %}</span>{% if t.photo and t.photo != "" %}<img src="{{ t.photo | escape }}" alt="" width="160" height="160" loading="lazy" decoding="async">{% endif %}</span>
+          <span class="trainee-text">
+            <span class="trainee-name">{{ t.name | escape }}</span>
+            <span class="trainee-role">{{ t.role | escape }}</span>
+            {% if t.project and t.project != "" %}<span class="trainee-project">{{ t.project | escape }}</span>{% endif %}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% else %}
     <div class="trainees">
       <h3>Trainees</h3>
       <p>Profiles of the students, residents and fellows who work with us are on their way.</p>
       <a class="text-link" href="#join">Join them</a>
     </div>
+    {% endif %}
   </div>
 
   {% for p in site.data.people.coleads %}

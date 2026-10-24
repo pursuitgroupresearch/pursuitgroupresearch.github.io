@@ -1,0 +1,28 @@
+# Site settings for GitHub Pages (Jekyll).
+# Content lives in the _data folder: people.yml, programs.yml and news.yml.
+title: PURSUIT
+tagline: In pursuit of better critical care
+description: >-
+  PURSUIT is a critical care research group in Toronto. We run pragmatic and
+  platform trials, emulate target trials in large ICU databases and bring the
+  results back to the bedside.
+url: https://pursuitgroup.ca
+email: info@pursuitgroup.ca
+# The Apply button goes to /apply/, which forwards to the Google Form below.
+apply_path: apply/
+form_url: ""
+review_months: January, April, July and October
+address:
+  - St. Michael's Hospital
+  - 30 Bond Street
+  - Toronto, Ontario M5B 1W8
+affiliations:
+  - St. Michael's Hospital, Unity Health Toronto
+  - University of Toronto
+  - Sunnybrook Health Sciences Centre
+  - Lakeridge Health
+  - Queen's University
+
+exclude:
+  - README.md
+  - CONTENT-GUIDE.md

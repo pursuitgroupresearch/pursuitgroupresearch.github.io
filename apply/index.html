@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /apply/
+---
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply to PURSUIT</title>
+<meta name="robots" content="noindex">
+{% if site.form_url and site.form_url != "" %}<meta http-equiv="refresh" content="0; url={{ site.form_url }}">{% endif %}
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<style>
+  :root { --ink: #0A1B2A; --on-dark: #E8F0F3; --tide-bright: #41D3C8; color-scheme: dark; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: var(--ink); color: var(--on-dark); font: 1.05rem/1.6 "IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 34rem; text-align: center; }
+  a { color: var(--tide-bright); }
+</style>
+</head>
+<body>
+<main>
+{% if site.form_url and site.form_url != "" %}
+  <p>Taking you to the PURSUIT application form. If nothing happens, <a href="{{ site.form_url }}">open the form</a>.</p>
+  <script>window.location.replace("{{ site.form_url }}");</script>
+{% else %}
+  <p>Our application form opens soon. Please check back, or return to <a href="/">pursuitgroup.ca</a>.</p>
+{% endif %}
+</main>
+</body>
+</html>

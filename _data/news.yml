@@ -1,6 +1,17 @@
 # News items, newest first. Leave url blank if there is nothing to link to yet.
 # kind is a short label such as Group, Publication, Trial or Award.
 
+- when: Nov 2026
+  kind: Award
+  title: AI Compass wins at Angels Den 2026
+  summary: >-
+    Bijan Teja and Michael Sklar won the Mitchell Award for Health System
+    Innovation for AI Compass, our AI tool that tracks ICU patients' data in
+    real time and alerts the care team when a patient's risk rises. Select the
+    headline to watch their entry video.
+  source: St. Michael's Hospital Foundation
+  url: https://www.youtube.com/watch?v=k3-zOheFrfg
+
 - when: Oct 2026
   kind: Group
   title: PURSUIT launches

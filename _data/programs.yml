@@ -41,7 +41,7 @@
   channel: AI
   title: AI and clinical decision support
   summary: >-
-    We are building INSIGHT, an AI decision-support tool for the ICU, at
+    We are building AI Compass, an AI decision-support tool for the ICU, at
     St. Michael's Hospital. It is designed to warn teams early and to admit
     uncertainty, starting with the moments around intubation and weaning from
     the ventilator.
